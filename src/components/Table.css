@@ -1,0 +1,32 @@
+.table{
+    margin-top: 20px;
+}
+
+.headerLine{
+    max-width: 1040px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.hlDiv{
+    box-sizing: border-box;
+    min-width: 250px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border: 2px solid black;
+}
+
+.line{
+    display: flex;
+    max-width: 1040px;
+}
+
+.lineDiv{
+    box-sizing: border-box;
+    min-width: 250px;
+    background-color: #cfeeee;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border: 2px solid black;
+}

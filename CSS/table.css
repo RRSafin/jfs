@@ -1,0 +1,56 @@
+.menu{
+    background-color: blanchedalmond;
+    padding: 50px 150px 50px 150px;
+    display: flex;
+    flex-direction: column;
+}
+.sort{
+    
+}
+.sortPlace{
+    display: flex;
+    flex-direction: row;
+}
+.textSort{
+
+}
+.conclusion{
+    
+}
+.fieldButton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.table{
+    margin-top: 20px;
+}
+.headerLine{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.headerLine div{
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    border: solid;
+}
+.line{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+.line div{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    border: solid;
+}

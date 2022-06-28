@@ -1,0 +1,33 @@
+.pContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.pContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pButton {
+    text-align: center;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: aliceblue;
+    cursor: pointer;
+}
+
+.pButtonActive {
+    text-align: center;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: #97ccff;
+    cursor: pointer;
+    box-shadow: 0 0 5px #a5edff;
+}
